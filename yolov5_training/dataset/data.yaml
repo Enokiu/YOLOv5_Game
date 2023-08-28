@@ -1,0 +1,6 @@
+train: yolov5/dataset/img/train/
+val: yolov5/dataset/img/val/
+nc: 2
+names: ['Open_Hand', 'Fist']
+patience: 5  # Anzahl der Epochen, die gewartet werden, wenn die Leistung nicht besser wird
+delta: 0.0001  # Schwellenwert, um zu bestimmen, ob die Leistung sich verbessert hat

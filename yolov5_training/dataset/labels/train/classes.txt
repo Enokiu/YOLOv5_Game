@@ -1,0 +1,2 @@
+0 Open_Hand
+1 Fist
