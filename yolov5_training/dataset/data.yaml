@@ -1,5 +1,5 @@
-train: yolov5/dataset/img/train/
-val: yolov5/dataset/img/val/
+train: ../../yolov5_training/dataset/images/train/
+val: ../../yolov5_training/dataset/images/val/
 nc: 2
 names: ['Open_Hand', 'Fist']
 patience: 5  # Anzahl der Epochen, die gewartet werden, wenn die Leistung nicht besser wird
